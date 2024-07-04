@@ -2,6 +2,8 @@ import warnings
 #warnings.filterwarnings("ignore", category=UserWarning, module='torchaudio._backend')
 warnings.filterwarnings("ignore", category=UserWarning)
 
+print ("Starting (imports can take a while first run)...", flush=True)
+
 import os
 import sys
 import json

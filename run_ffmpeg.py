@@ -5,7 +5,7 @@ import math
 try:
     from alive_progress import alive_bar
 except:
-    from fake_progress import LineUpdate as alive_bar
+    from basic_progress import LineUpdate as alive_bar
 
 from subprocess import Popen, PIPE, DEVNULL, run, CalledProcessError
 

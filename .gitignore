@@ -1,1 +1,8 @@
 hf.txt
+hftoken.txt
+*.wav
+*.mp3
+__pycache__
+.env
+env
+.venv

@@ -9,6 +9,8 @@ Podiarize uses speaker diarization (provided by pyannote) to identify different 
 - Condensing podcasts to focus on the main content
 - Removing advertisements or less relevant sections
 
+**This is not a finished project, it may work for you as-is, but some podcasts may not work properly with default settings**
+
 ## Features
 
 - Speaker diarization using pyannote.audio
@@ -25,7 +27,7 @@ pip install -r requirements.txt
 ```
 
 3. [Agree to the terms for pyannote](https://github.com/pyannote/pyannote-audio?tab=readme-ov-file#tldr)
-4. Put a valid huggingface token in hf.txt (or change `modify_podcast.py` to use your token)
+4. Put a valid huggingface token in hftoken.txt (or change `modify_podcast.py` to use your token)
 5. Make sure you have `ffmpeg` and `ffprobe` in your path.
 
 ## Running

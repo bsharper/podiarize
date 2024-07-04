@@ -1,6 +1,6 @@
 pydub
 pyannote.audio
--i https://download.pytorch.org/whl/cu121
-torch 
+alive-progress
+-i https://download.pytorch.org/whl/cu121 torch 
 torchvision
 torchaudio
