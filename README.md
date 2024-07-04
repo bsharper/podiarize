@@ -33,3 +33,7 @@ pip install -r requirements.txt
 `python modify_podcast.py some_audio_file.mp3`
 
 This will output to `output_some_audio_file.mp3`. 
+
+## License
+
+The license in the LICENSE.md file applies only to the code in this repository. Be sure to review the license for pyannote and relevant models
